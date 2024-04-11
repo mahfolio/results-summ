@@ -235,4 +235,9 @@ div.attribution {
     .stats {
         padding: 2rem 2rem;
     }
+
+    .stats a:hover {
+        background: rgb(73, 37, 209);
+        background: linear-gradient(0deg, rgba(73, 37, 209, 1) 44%, rgba(101, 65, 253, 1) 72%);
+    }
 }
