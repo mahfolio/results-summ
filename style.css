@@ -198,26 +198,41 @@ div.attribution {
 }
 
 @media (min-width: 600px) {
-   .container {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   }
-   .wrapper {
-    display: flex;
-   }
-   .score-info,
-   .stats {
-    width: 300px;
-    margin: 0;
-   }
-   .score-info {
-    padding: 1rem;
-   }
-   .stats {
-    padding: 1rem;
-   }
+    .container {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-    
+    .wrapper {
+        display: flex;
+        box-shadow: 15px 17px 63px -21px rgba(140, 135, 140, 0.94);
+        border-radius: 2.5rem;
+    }
+
+    .score-info,
+    .stats {
+        width: 300px;
+        margin: 0;
+    }
+
+    .score-info {
+        padding: 3rem;
+        border-radius: 2.5rem;
+        justify-content: center;
+    }
+
+    .score+p {
+        font-size: 1.7rem;
+    }
+
+    .score-info h1 {
+        font-size: 1.2rem;
+        margin-bottom: 0.9rem;
+    }
+
+    .stats {
+        padding: 2rem 2rem;
+    }
 }
